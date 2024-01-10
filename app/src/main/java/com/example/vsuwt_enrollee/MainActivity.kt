@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     private fun demonstrateBasicOperations() {
         val stringBuilder = StringBuilder()
 
-        // Пример работы с преобразованием строк
+        // Пример работы с преобразованием строк.
         val originalString = "Kotlin"
         val upperString = originalString.toUpperCase()
         stringBuilder.append("Original: $originalString, Upper Case: $upperString\n")
